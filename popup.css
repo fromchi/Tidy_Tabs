@@ -1,0 +1,95 @@
+/*Popup.css */
+/*styling pages for Tidy-Tabs*/
+
+html, body {
+    font-family: 'Fredoka One';
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+    background-color: white;
+}
+
+p {
+    padding-top: 10px;
+    text-align: center;
+    color: #F13C20;
+}
+
+.modal-header {
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+    background-color: white;
+}
+
+.modal-content {
+    padding: 0 22px;
+}
+
+.logo {
+    margin: auto;
+    padding: 10px;
+}
+
+.logo-icon {
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+
+/*setting Btn*/
+.topcorner{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+
+.btn {
+    background: transparent; 
+    border: none; 
+    padding: none;
+    cursor: pointer;
+}
+
+/* square buttons style */
+.button3 {
+    background-color: #8FC1E3;
+    color:  #F7F9FB;
+    border: 2px solid #687664;
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color:#4D6D9A;
+}
+
+.button3:focus {
+    background-color:#022140;
+}
+
+.button-div {
+    transform: translate(38%, 40%);
+    padding-bottom: 30px;
+}
+
+/* hidden setting div */
+#demo {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;  
+}
+
+.redby {
+    color: #F13C20;
+    font-size: 15px;
+}
+
+/* divider line */
+.settings {
+    border-bottom: 0.5px solid #dadada;
+}

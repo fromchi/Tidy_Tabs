@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Tidy-Tabs",
+    "description":"Sets a max number of tabs in chrome browser and saves the excess!",
+    "version": "1.0.0",
+    "permissions": [
+        "tabs",
+        "bookmarks"
+    ],
+    "icons": {
+        "128": "folder-blue.png"
+    },
+    "browser_action": {
+        "default_icon": "folder-blue.png",
+        "default_popup":"popup.html",
+        "default-title": "Tab Folder"
+    },
+    "content_scripts": [ 
+        {
+            "matches": ["<all_urls>"],
+            "js": ["popup.js"]
+        }
+    ],
+    "background":{
+        "scripts": ["background.js"]
+    }
+}

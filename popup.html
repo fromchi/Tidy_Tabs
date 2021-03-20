@@ -1,0 +1,40 @@
+<!--Popup.html-->
+<!--front end for Tidy-Tabs-->
+<!DOCTYPE html>
+    <html>
+       <head>
+          <meta charset='utf-8'>
+          <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+          <title>Test Add-on</title>
+          <meta name='viewport' content='width=device-width, initial-scale=1'>
+          <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="popup.css">
+       </head>
+       <body>
+          <div class="modal-header">
+             <h1 class="logo">
+                <i class="fa fa-bookmark-o" style="font-size:30px"></i>
+                <span class= "logo">  Tidy Tabs <span class = "redby">(1.0)</span></span>
+                <div class="topcorner">
+                   <button class="btn" id="settingsBtn">
+                   <i class="fa fa-gear" style="font-size:18px"></i>
+                   </button>
+                </div>
+             </h1>
+          </div>
+          <div class = "settings">
+             <div id="demo" style="display:none">
+                <label for="quantity">Largest Number of Tabs <br></br>(between 5 and 10):</label>
+                <input type="number" id="tabName" name="tabName" min="5" max="10" value = "7"></input>
+                <br></br>
+                <label for="fname">Name of Folder:</label>
+                <input type="text" id="fName" name="folderName" value = "save"/><br><br>
+                <button class = "button3" id="getdata" >Save Changes</button>
+             </div>
+          </div>
+          <div class = "button-div">
+             <button class = "button3" id="getdirections">Click to start</button>
+          </div>
+          <p id = "reminder"></p>
+          <script type="text/javascript" src="popup.js"></script>
