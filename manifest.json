@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Tidy-Tabs",
-    "description":"Sets a max number of tabs in a chrome browser and saves the excess!",
+    "description":"Sets a max number of tabs in a chrome bowser and saves the excess!",
     "version": "1.0.0",
     "permissions": [
         "tabs",
